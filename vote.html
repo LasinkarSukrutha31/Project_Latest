@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vote</title>
+</head>
+<body>
+    <h1>Vote by Face</h1>
+
+    <form action="/vote" method="POST" enctype="multipart/form-data">
+        <label for="voteImage">Upload Your Image:</label><br>
+        <input type="file" name="voteImage" id="voteImage" accept="image/*" required><br><br>
+        <input type="submit" value="Submit Vote">
+    </form>
+</body>
+</html>

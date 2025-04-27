@@ -1,0 +1,5 @@
+Run the server.js
+Later Register.js && Login.js
+In data.csv It Stores
+
+NOTE: - RUN -> Start Without Debugging

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Voting System - Official</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #002868;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .marquee-container {
+      background-color: #ffcc00;
+      padding: 8px 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .marquee-text {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .marquee-text span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 10s linear infinite;
+      white-space: nowrap;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .main-content {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .main-content h3 {
+      color: #002868;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .main-content p {
+      line-height: 1.6;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div style="display: flex; align-items: center;">
+      <img src="logos/IMG.png" alt="Logo" style="height: 60px; width: 60px; border-radius: 5px; margin-right: 15px;">
+      <h2>Online Voting System</h2>
+    </div>
+    <div class="nav-links">
+      <a href="Main.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+    </div>
+  </header>
+
+  <div class="marquee-container">
+    <div class="marquee-text">
+      <span>Welcome to the Official Indian Online Voting Portal. Your vote matters — make it count!</span>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <h3>Who Can Vote in India?</h3>
+    <p>
+      In India, every citizen who is 18 years or older on the qualifying date (January 1st of the year) is eligible to vote, provided they are registered on the electoral roll. Voting is a fundamental right and a vital part of the democratic process.
+    </p>
+    <p>
+      <strong>Eligibility Criteria:</strong><br>
+      ✔️ Must be an Indian citizen<br>
+      ✔️ Must be 18 years of age or older<br>
+      ✔️ Must possess a valid Voter ID card<br>
+      ✔️ Must be registered in the electoral roll of the constituency
+    </p>
+    <p>
+      Participating in elections helps shape the future of our nation. Make sure your voice is heard!
+    </p>
+  </div>
+
+</body>
+</html>
